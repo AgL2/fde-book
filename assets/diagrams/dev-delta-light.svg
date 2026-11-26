@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#0D9488"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#D97706"/>
+    </marker>
+  </defs>
+
+  <!-- 纸白背景与标题 -->
+  <rect x="0" y="0" width="1160" height="460" fill="#FFFFFF"/>
+  <text x="580" y="56" text-anchor="middle" font-size="18" font-weight="bold" fill="#0F172A">Palantir 双轨分工：Dev · 产品线 ←→ Delta · 现场线（FDE 前身）</text>
+
+  <!-- ══ 左泳道：Dev ══ -->
+  <rect x="60" y="100" width="380" height="260" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="250" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#475569">Dev · 产品线</text>
+  <rect x="100" y="160" width="300" height="52" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="250" y="192" text-anchor="middle" font-size="13" fill="#0F172A">一种能力服务多个客户</text>
+  <rect x="100" y="250" width="300" height="52" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="250" y="282" text-anchor="middle" font-size="13" fill="#0F172A">版本节奏：季度级</text>
+  <text x="250" y="336" text-anchor="middle" font-size="11" fill="#64748B">衡量：产品功能与规模</text>
+
+  <!-- ══ 右泳道：Delta ══ -->
+  <rect x="720" y="100" width="380" height="260" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="910" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#475569">Delta · 现场线（FDE 前身）</text>
+  <rect x="760" y="160" width="300" height="52" rx="12" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="910" y="192" text-anchor="middle" font-size="13" fill="#0F172A">一个客户调用多种能力</text>
+  <rect x="760" y="250" width="300" height="52" rx="12" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="910" y="282" text-anchor="middle" font-size="13" fill="#0F172A">反馈节奏：天级</text>
+  <text x="910" y="336" text-anchor="middle" font-size="11" fill="#64748B">衡量：客户问题是否被解决</text>
+
+  <!-- ══ 连线 ══ -->
+  <line x1="440" y1="191" x2="716" y2="191" stroke="#0D9488" stroke-width="2" marker-end="url(#arrowTeal)"/>
+  <rect x="516" y="176" width="128" height="22" rx="4" fill="#FFFFFF"/>
+  <text x="580" y="192" text-anchor="middle" font-size="12" fill="#0D9488">产品能力输出</text>
+  <line x1="720" y1="295" x2="444" y2="295" stroke="#D97706" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrowAmber)"/>
+  <rect x="516" y="280" width="128" height="22" rx="4" fill="#FFFFFF"/>
+  <text x="580" y="296" text-anchor="middle" font-size="12" fill="#B45309">现场情报反哺</text>
+
+  <!-- ══ 底注 ══ -->
+  <text x="580" y="410" text-anchor="middle" font-size="11" font-style="italic" fill="#64748B">Dev 是一种能力服务多个客户；Delta 是一个客户调用多种能力 —— 反哺循环让现场工作从成本项变成资产项</text>
+</svg>

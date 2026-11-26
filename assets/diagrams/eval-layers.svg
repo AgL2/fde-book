@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>四层评估：从毫秒冒烟到生产验证</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#0D9488"/>
+    </marker>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="18" font-weight="bold" fill="#0F172A">四层评估：从毫秒冒烟到生产验证</text>
+  <text x="1100" y="70" font-size="12" font-style="italic" fill="#475569" text-anchor="end">成本 · 耗时 · 可信度 →</text>
+
+  <line x1="130" y1="288" x2="1066" y2="72" stroke="#0D9488" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow-teal)"/>
+
+  <g filter="url(#ds)">
+    <rect x="100" y="310" width="230" height="90" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="360" y="240" width="230" height="160" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+    <rect x="620" y="170" width="230" height="230" rx="8" fill="#99F6E4" stroke="#0D9488" stroke-width="2"/>
+    <rect x="880" y="100" width="230" height="300" rx="8" fill="#5EEAD4" stroke="#0D9488" stroke-width="2"/>
+  </g>
+
+  <text x="215" y="332" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">L1 断言式</text>
+  <text x="215" y="352" font-size="11" fill="#0F172A" text-anchor="middle">毫秒 · 极低成本</text>
+  <text x="215" y="370" font-size="11" fill="#475569" text-anchor="middle">关键词 / schema / 精确匹配</text>
+  <text x="215" y="388" font-size="11" fill="#475569" text-anchor="middle">CI 回归冒烟：改一处坏三处的特效药</text>
+
+  <text x="475" y="262" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">L2 LLM-as-judge</text>
+  <text x="475" y="284" font-size="11" fill="#0F172A" text-anchor="middle">秒级 · 低成本</text>
+  <text x="475" y="302" font-size="11" fill="#475569" text-anchor="middle">日常主力：大批量跑全量黄金集</text>
+  <text x="475" y="320" font-size="11" fill="#475569" text-anchor="middle">偏差要用 L3 校准（10.3.3）</text>
+
+  <text x="735" y="192" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">L3 人工专家打分</text>
+  <text x="735" y="214" font-size="11" fill="#0F172A" text-anchor="middle">天级 · 高成本</text>
+  <text x="735" y="232" font-size="11" fill="#475569" text-anchor="middle">上线前验收</text>
+  <text x="735" y="250" font-size="11" fill="#475569" text-anchor="middle">judge 校准闭环的基准</text>
+
+  <text x="995" y="122" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">L4 线上 A/B 与业务指标</text>
+  <text x="995" y="144" font-size="11" fill="#0F172A" text-anchor="middle">周级 · 生产验证</text>
+  <text x="995" y="162" font-size="11" fill="#475569" text-anchor="middle">首解率 · 转人工率</text>
+  <text x="995" y="180" font-size="11" fill="#475569" text-anchor="middle">上线靠它收官</text>
+
+  <g filter="url(#ds)">
+    <rect x="100" y="416" width="1010" height="32" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+  <text x="605" y="436" font-size="12" fill="#475569" text-anchor="middle">使用节奏：日常迭代 L2 跑全量 → 每周 L3 抽样校准 → 上线靠 L4 收官；L1 塞进 CI 当回归冒烟</text>
+</svg>

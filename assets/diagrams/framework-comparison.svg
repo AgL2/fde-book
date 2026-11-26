@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>四大编排框架横评</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="32" font-size="18" font-weight="bold" fill="#0F172A">四大编排框架：选型只看四个问题</text>
+
+  <g filter="url(#ds)">
+    <rect x="40" y="56" width="255" height="330" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="330" y="56" width="255" height="330" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="620" y="56" width="255" height="330" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="910" y="56" width="255" height="330" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="167" y="90" font-size="16" font-weight="bold" fill="#0F172A">LangGraph</text>
+    <text x="167" y="130" font-size="13" fill="#0F172A">代码级有状态编排</text>
+    <text x="167" y="160" font-size="12" fill="#475569">一切皆代码</text>
+    <text x="167" y="185" font-size="12" fill="#475569">checkpoint 一等公民</text>
+    <text x="167" y="210" font-size="12" fill="#475569">学习曲线：陡</text>
+    <text x="167" y="255" font-size="12" font-style="italic" fill="#0D9488">生产复杂流程首选</text>
+
+    <text x="457" y="90" font-size="16" font-weight="bold" fill="#0F172A">Dify</text>
+    <text x="457" y="130" font-size="13" fill="#0F172A">可视化 Agent 平台</text>
+    <text x="457" y="160" font-size="12" fill="#475569">拖拽即图</text>
+    <text x="457" y="185" font-size="12" fill="#475569">会话变量级状态</text>
+    <text x="457" y="210" font-size="12" fill="#475569">学习曲线：平缓</text>
+    <text x="457" y="255" font-size="12" font-style="italic" fill="#0D9488">2 天出 demo 首选</text>
+
+    <text x="747" y="90" font-size="16" font-weight="bold" fill="#0F172A">n8n</text>
+    <text x="747" y="130" font-size="13" fill="#0F172A">通用自动化 + AI 节点</text>
+    <text x="747" y="160" font-size="12" fill="#475569">拖拽节点连线</text>
+    <text x="747" y="185" font-size="12" fill="#475569">执行数据级状态</text>
+    <text x="747" y="210" font-size="12" fill="#475569">学习曲线：平缓</text>
+    <text x="747" y="255" font-size="12" font-style="italic" fill="#0D9488">存量系统胶水层首选</text>
+
+    <text x="1037" y="90" font-size="16" font-weight="bold" fill="#0F172A">CrewAI</text>
+    <text x="1037" y="130" font-size="13" fill="#0F172A">多 Agent 角色协作</text>
+    <text x="1037" y="160" font-size="12" fill="#475569">角色任务声明</text>
+    <text x="1037" y="185" font-size="12" fill="#475569">状态与持久化较弱</text>
+    <text x="1037" y="210" font-size="12" fill="#475569">学习曲线：中</text>
+    <text x="1037" y="255" font-size="12" font-style="italic" fill="#0D9488">概念演示与原型首选</text>
+  </g>
+
+  <g filter="url(#ds)">
+    <rect x="40" y="404" width="1125" height="32" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+  <text x="602" y="424" font-size="12" fill="#475569" text-anchor="middle">选型四问：交付周期多长？谁接手？流程多复杂？生产要求多高？（6.1）——同题四做：报销审批助手，见 6.3-6.6</text>
+</svg>

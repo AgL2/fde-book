@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>RAG 双流水线：离线建库 · 在线问答</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#0D9488"/>
+    </marker>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="18" font-weight="bold" fill="#0F172A">RAG 双流水线：离线建库 · 在线问答</text>
+
+  <!-- 泳道 -->
+  <rect x="40" y="52" width="420" height="372" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="52" y="76" font-size="14" font-weight="bold" fill="#0D9488">离线 · 建库（数据变更时跑一次）</text>
+  <rect x="700" y="52" width="420" height="372" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="712" y="76" font-size="14" font-weight="bold" fill="#0D9488">在线 · 问答（每次提问都跑）</text>
+
+  <!-- 离线列 -->
+  <g filter="url(#ds)">
+    <rect x="90" y="100" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="90" y="162" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="90" y="224" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="90" y="286" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <path d="M90,362 a14,10 0 0 1 14,-10 h292 a14,10 0 0 1 14,10 v32 a14,10 0 0 1 -14,10 h-292 a14,10 0 0 1 -14,-10 z" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+    <ellipse cx="250" cy="362" rx="160" ry="10" fill="none" stroke="#0D9488" stroke-width="2"/>
+  </g>
+  <text x="250" y="121" font-size="14" fill="#0F172A" text-anchor="middle">原始文档 <tspan font-size="12" fill="#475569">PDF · Excel · 扫描件</tspan></text>
+  <text x="250" y="183" font-size="14" fill="#0F172A" text-anchor="middle">解析 <tspan font-size="12" fill="#475569">8.2 · 翻车第一名</tspan></text>
+  <text x="250" y="245" font-size="14" fill="#0F172A" text-anchor="middle">切分 <tspan font-size="12" fill="#475569">固定长度 · 语义 · 父子块</tspan></text>
+  <text x="250" y="307" font-size="14" fill="#0F172A" text-anchor="middle">向量化 <tspan font-size="12" fill="#475569">embedding 选型（8.3.4）</tspan></text>
+  <text x="250" y="381" font-size="14" fill="#0F172A" text-anchor="middle">入库（带元数据）</text>
+  <text x="250" y="396" font-size="11" fill="#475569" text-anchor="middle">权限标签 · 条款编号</text>
+
+  <!-- 在线列 -->
+  <g filter="url(#ds)">
+    <rect x="750" y="100" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="750" y="162" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="750" y="224" width="320" height="44" rx="7" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+    <rect x="750" y="286" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="750" y="348" width="320" height="44" rx="7" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+  </g>
+  <text x="910" y="121" font-size="14" fill="#0F172A" text-anchor="middle">用户问题 <tspan font-size="12" fill="#475569">语音（转写后处理）· 文本</tspan></text>
+  <text x="910" y="183" font-size="14" fill="#0F172A" text-anchor="middle">查询改写 <tspan font-size="12" fill="#475569">同义词扩展 · 口语清洗</tspan></text>
+  <text x="910" y="245" font-size="14" fill="#0F172A" text-anchor="middle">检索 <tspan font-size="12" fill="#475569">向量 + 关键词混合（8.5）</tspan></text>
+  <text x="910" y="307" font-size="14" fill="#0F172A" text-anchor="middle">重排 → 拼装上下文 <tspan font-size="12" fill="#475569">RRF 融合 · 父块回拼</tspan></text>
+  <text x="910" y="369" font-size="14" fill="#0F172A" text-anchor="middle">生成 <tspan font-size="12" fill="#475569">引用约束 → 溯源输出 / 拒答</tspan></text>
+
+  <!-- 离线箭头 -->
+  <line x1="250" y1="144" x2="250" y2="158" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="250" y1="206" x2="250" y2="220" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="250" y1="268" x2="250" y2="282" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="250" y1="330" x2="250" y2="344" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <!-- 在线箭头 -->
+  <line x1="910" y1="144" x2="910" y2="158" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="910" y1="206" x2="910" y2="220" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="910" y1="268" x2="910" y2="282" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <line x1="910" y1="330" x2="910" y2="344" stroke="#0D9488" stroke-width="2" marker-end="url(#arrow-teal)"/>
+
+  <!-- 跨泳道：入库 → 检索 -->
+  <path d="M410,374 H580 V246 H744" fill="none" stroke="#0D9488" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow-teal)"/>
+  <rect x="508" y="300" width="68" height="20" fill="#FFFFFF"/>
+  <text x="542" y="314" font-size="12" fill="#0D9488" text-anchor="middle">查询时被检索</text>
+
+  <!-- 中央注释 -->
+  <text x="580" y="118" font-size="12" font-style="italic" fill="#475569" text-anchor="middle">第一定律：解析质量</text>
+  <text x="580" y="136" font-size="12" font-style="italic" fill="#475569" text-anchor="middle">决定检索上限</text>
+  <text x="580" y="154" font-size="12" font-style="italic" fill="#475569" text-anchor="middle">（8.2.2 对照实验）</text>
+</svg>

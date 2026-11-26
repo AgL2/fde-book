@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+    <marker id="aRose" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#BE123C"/>
+    </marker>
+    <marker id="aGray" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="580" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#0F172A">Harness 四层架构：一次实现，所有用例摊薄</text>
+
+  <!-- 顶部：用例房间 -->
+  <rect x="220" y="70" width="160" height="54" rx="12" fill="#FFF1F2" stroke="#BE123C" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="300" y="92" text-anchor="middle" font-size="12" font-weight="bold" fill="#0F172A">用例 A · 脚本生成</text>
+  <text x="300" y="110" text-anchor="middle" font-size="10" fill="#64748B">配置 + 特有逻辑 ~30 行</text>
+  <rect x="400" y="70" width="160" height="54" rx="12" fill="#FFF1F2" stroke="#BE123C" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="480" y="92" text-anchor="middle" font-size="12" font-weight="bold" fill="#0F172A">用例 B · 规格书问答</text>
+  <text x="480" y="110" text-anchor="middle" font-size="10" fill="#64748B">配置 + 特有逻辑 ~35 行</text>
+  <rect x="580" y="70" width="160" height="54" rx="12" fill="#FFF1F2" stroke="#BE123C" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="660" y="92" text-anchor="middle" font-size="12" font-weight="bold" fill="#0F172A">用例 C · 日志归因</text>
+  <text x="660" y="110" text-anchor="middle" font-size="10" fill="#64748B">配置 + 特有逻辑 ~40 行</text>
+  <line x1="300" y1="124" x2="380" y2="166" stroke="#BE123C" stroke-width="1.5" marker-end="url(#aRose)"/>
+  <line x1="480" y1="124" x2="480" y2="166" stroke="#BE123C" stroke-width="1.5" marker-end="url(#aRose)"/>
+  <line x1="660" y1="124" x2="580" y2="166" stroke="#BE123C" stroke-width="1.5" marker-end="url(#aRose)"/>
+
+  <!-- 四层（从上到下：评估 violet / 追踪 amber / 检索 sky / 编排 teal） -->
+  <rect x="200" y="170" width="560" height="52" rx="10" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="480" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">④ evaluation · 评估跑分</text>
+  <text x="480" y="210" text-anchor="middle" font-size="10" fill="#64748B">黄金集 / LLM-as-judge / 归因（母版：第 10 章）</text>
+
+  <rect x="200" y="230" width="560" height="52" rx="10" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="480" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">③ tracing · 追踪与审计</text>
+  <text x="480" y="270" text-anchor="middle" font-size="10" fill="#64748B">trace_id 串三类日志（母版：第 9 章）</text>
+
+  <rect x="200" y="290" width="560" height="52" rx="10" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="480" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">② retrieval · 检索与知识注入</text>
+  <text x="480" y="330" text-anchor="middle" font-size="10" fill="#64748B">混合检索 / 拒答阈值（母版：第 8 章）</text>
+
+  <rect x="200" y="350" width="560" height="52" rx="10" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="480" y="372" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">① orchestrator · 任务编排</text>
+  <text x="480" y="390" text-anchor="middle" font-size="10" fill="#64748B">用例 = config + hooks（母版：第 6 章）</text>
+
+  <!-- 左侧标注 -->
+  <line x1="188" y1="170" x2="188" y2="402" stroke="#94A3B8" stroke-width="2"/>
+  <text x="168" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#475569" transform="rotate(-90 168 290)">一次实现（harness 核心）</text>
+
+  <!-- 右侧标注 -->
+  <rect x="800" y="200" width="320" height="96" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="960" y="226" text-anchor="middle" font-size="12" font-weight="bold" fill="#0F172A">新用例接入 = 配置若干行 + 特有函数</text>
+  <text x="960" y="248" text-anchor="middle" font-size="11" fill="#BE123C">接入耗时：2 周 → 1 天</text>
+  <text x="960" y="268" text-anchor="middle" font-size="10" fill="#64748B">接入耗时 = harness 健康度的最诚实指标</text>
+  <line x1="760" y1="248" x2="796" y2="248" stroke="#94A3B8" stroke-width="2" marker-end="url(#aGray)"/>
+
+  <!-- 底注 -->
+  <text x="580" y="448" text-anchor="middle" font-size="11" font-style="italic" fill="#64748B">收敛会时机 = 账本亮红灯的那一周（第 5 个用例启动前）—— 90% 是规模的函数（正文 17.3 / 第 12 章原则二）</text>
+</svg>

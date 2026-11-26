@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# 运行产物
+*.log
+chroma_db/
+*.sqlite3
+
+# 暂不提交：后续单独发布（本地保留）
+/examples/
+/docs/
+/assets/diagrams/*.drawio
+/assets/diagrams/*.png
+/assets/diagrams/dev-delta.svg

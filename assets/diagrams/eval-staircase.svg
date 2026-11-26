@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>60→90 的四个台阶</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-rose" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#BE123C"/>
+    </marker>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="18" font-weight="bold" fill="#0F172A">60→90 的四个台阶：一次只改一件事（远通电信，第 15 章）</text>
+
+  <!-- 90% 参考线与基线 -->
+  <line x1="80" y1="188" x2="940" y2="188" stroke="#D97706" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="86" y="182" font-size="12" font-weight="bold" fill="#D97706">90%</text>
+  <line x1="80" y1="380" x2="940" y2="380" stroke="#94A3B8" stroke-width="1.5"/>
+
+  <!-- 台阶柱 -->
+  <g filter="url(#ds)">
+    <rect x="100" y="332" width="160" height="48" fill="#FFF1F2" stroke="#BE123C" stroke-width="2"/>
+    <rect x="320" y="212" width="160" height="168" fill="#FFE4E6" stroke="#BE123C" stroke-width="2"/>
+    <rect x="540" y="164" width="160" height="216" fill="#FECDD3" stroke="#BE123C" stroke-width="2"/>
+    <rect x="760" y="140" width="160" height="240" fill="#FDA4AF" stroke="#BE123C" stroke-width="2"/>
+  </g>
+  <text x="180" y="324" font-size="16" font-weight="bold" fill="#BE123C" text-anchor="middle">60%</text>
+  <text x="400" y="204" font-size="16" font-weight="bold" fill="#BE123C" text-anchor="middle">85%</text>
+  <text x="620" y="156" font-size="16" font-weight="bold" fill="#BE123C" text-anchor="middle">95%</text>
+  <text x="840" y="132" font-size="16" font-weight="bold" fill="#BE123C" text-anchor="middle">100%</text>
+
+  <!-- 台阶标签 -->
+  <text x="180" y="404" font-size="12" fill="#475569" text-anchor="middle">v0 裸 RAG 基线</text>
+  <text x="400" y="404" font-size="12" fill="#475569" text-anchor="middle">v1 口语映射</text>
+  <text x="620" y="404" font-size="12" fill="#475569" text-anchor="middle">v2 拒答与兜底</text>
+  <text x="840" y="404" font-size="12" fill="#475569" text-anchor="middle">v3 评估驱动微调</text>
+
+  <!-- 递增箭头 -->
+  <path d="M262,330 Q288,266 312,222" fill="none" stroke="#BE123C" stroke-width="1.5" marker-end="url(#arrow-rose)"/>
+  <rect x="250" y="252" width="80" height="18" fill="#FFFFFF"/>
+  <text x="290" y="266" font-size="11" fill="#BE123C" text-anchor="middle">+口语映射表</text>
+  <path d="M482,206 Q506,180 532,174" fill="none" stroke="#BE123C" stroke-width="1.5" marker-end="url(#arrow-rose)"/>
+  <rect x="440" y="188" width="110" height="18" fill="#FFFFFF"/>
+  <text x="495" y="202" font-size="11" fill="#BE123C" text-anchor="middle">+拒答阈值 · 转人工</text>
+  <path d="M702,162 Q726,148 752,146" fill="none" stroke="#BE123C" stroke-width="1.5" marker-end="url(#arrow-rose)"/>
+  <rect x="660" y="142" width="112" height="18" fill="#FFFFFF"/>
+  <text x="716" y="156" font-size="11" fill="#BE123C" text-anchor="middle">+引用约束 · 补文档</text>
+
+  <!-- 右侧注记 -->
+  <g filter="url(#ds)">
+    <rect x="950" y="150" width="190" height="80" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+  <text x="964" y="176" font-size="12" font-style="italic" fill="#475569">90%+ 是真实终点</text>
+  <text x="964" y="196" font-size="12" font-style="italic" fill="#475569">100% 是评估体系坏了的信号</text>
+  <text x="964" y="216" font-size="12" font-style="italic" fill="#475569">（10.5.5）</text>
+</svg>

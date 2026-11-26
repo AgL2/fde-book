@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>线性增长 vs 复利增长：分岔点在最后两周的习惯</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#D97706"/>
+    </marker>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="18" font-weight="bold" fill="#0F172A">线性增长 vs 复利增长：分岔点在最后两周的习惯</text>
+
+  <!-- 坐标轴 -->
+  <line x1="100" y1="390" x2="100" y2="86" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+  <line x1="100" y1="390" x2="1086" y2="390" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+  <text x="100" y="70" font-size="12" font-style="italic" fill="#475569" text-anchor="middle">每个项目的实际工时</text>
+  <text x="1080" y="412" font-size="12" font-style="italic" fill="#475569" text-anchor="end">项目 1 → 项目 N</text>
+
+  <!-- 线性曲线 -->
+  <line x1="100" y1="330" x2="1050" y2="330" stroke="#94A3B8" stroke-width="2.5"/>
+  <g fill="#94A3B8">
+    <circle cx="250" cy="330" r="4.5"/><circle cx="520" cy="330" r="4.5"/>
+    <circle cx="790" cy="330" r="4.5"/><circle cx="1020" cy="330" r="4.5"/>
+  </g>
+  <text x="250" y="316" font-size="11" fill="#475569" text-anchor="middle">30 天</text>
+  <text x="520" y="316" font-size="11" fill="#475569" text-anchor="middle">30 天</text>
+  <text x="790" y="316" font-size="11" fill="#475569" text-anchor="middle">30 天</text>
+  <text x="1020" y="316" font-size="11" fill="#475569" text-anchor="middle">30 天</text>
+
+  <!-- 复利曲线 -->
+  <path d="M100,330 C170,330 190,330 250,330 C330,330 445,296 520,268 C595,240 715,236 790,212 C865,190 960,176 1020,168" fill="none" stroke="#D97706" stroke-width="3"/>
+  <g fill="#D97706">
+    <circle cx="250" cy="330" r="4.5"/><circle cx="520" cy="268" r="4.5"/>
+    <circle cx="790" cy="212" r="4.5"/><circle cx="1020" cy="168" r="4.5"/>
+  </g>
+  <text x="512" y="256" font-size="11" font-weight="bold" fill="#D97706" text-anchor="end">24 天</text>
+  <text x="804" y="202" font-size="11" font-weight="bold" fill="#D97706">19 天</text>
+  <text x="1032" y="160" font-size="11" font-weight="bold" fill="#D97706">≈15 天（示意）</text>
+
+  <!-- 分岔点 -->
+  <circle cx="385" cy="315" r="20" fill="none" stroke="#D97706" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="385" y="352" font-size="11" font-weight="bold" fill="#D97706" text-anchor="middle">分岔点</text>
+  <line x1="560" y1="168" x2="410" y2="300" stroke="#D97706" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow-amber)"/>
+
+  <!-- 注释框 -->
+  <g filter="url(#ds)">
+    <rect x="430" y="92" width="330" height="72" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  </g>
+  <text x="595" y="122" font-size="13" font-weight="bold" fill="#0F172A" text-anchor="middle">分岔点不在能力，在最后两周的习惯</text>
+  <text x="595" y="146" font-size="12" fill="#475569" text-anchor="middle">多留两周：收敛会 · 提案 · 七问 → 资产</text>
+
+  <!-- 图例 -->
+  <g filter="url(#ds)">
+    <rect x="130" y="92" width="270" height="64" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+  <line x1="146" y1="110" x2="162" y2="110" stroke="#94A3B8" stroke-width="2.5"/>
+  <text x="170" y="114" font-size="12" fill="#475569">线性型：更熟练的重复（高级外包）</text>
+  <line x1="146" y1="138" x2="162" y2="138" stroke="#D97706" stroke-width="3"/>
+  <text x="170" y="142" font-size="12" font-weight="bold" fill="#0F172A">复利型：资产随项目复利</text>
+
+  <text x="100" y="438" font-size="12" font-style="italic" fill="#475569">利润与议价权 = 报价（30 天）− 实际工时：同样报价，复利型的实际工时在下降（30→24→19→…，数字为示意，机制是真的）</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+  <title>L0-L4 成长阶梯</title>
+  <defs>
+    <filter id="ds" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-violet" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+  </defs>
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="40" y="32" font-size="18" font-weight="bold" fill="#0F172A">L0-L4 成长阶梯：段位与达标证据</text>
+
+  <line x1="100" y1="318" x2="1116" y2="40" stroke="#7C3AED" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow-violet)"/>
+
+  <g filter="url(#ds)">
+    <rect x="70" y="330" width="200" height="70" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="290" y="260" width="200" height="140" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="510" y="190" width="200" height="210" rx="8" fill="#DDD6FE" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="730" y="120" width="200" height="280" rx="8" fill="#C4B5FD" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="950" y="50" width="200" height="350" rx="8" fill="#A78BFA" stroke="#7C3AED" stroke-width="2"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="170" y="352" font-size="14" font-weight="bold" fill="#0F172A">L0 认知</text>
+    <text x="170" y="372" font-size="11" fill="#475569">第 1-3 章 · 讲清 FDE 与外包的区别</text>
+
+    <text x="390" y="282" font-size="14" font-weight="bold" fill="#0F172A">L1 武器</text>
+    <text x="390" y="302" font-size="11" fill="#475569">第 4-10 章</text>
+    <text x="390" y="326" font-size="11" fill="#475569">每章工具跑通</text>
+    <text x="390" y="346" font-size="11" fill="#475569">+ 一次端到端小项目</text>
+
+    <text x="610" y="212" font-size="14" font-weight="bold" fill="#0F172A">L2 方法</text>
+    <text x="610" y="232" font-size="11" fill="#475569">第 11-14 章</text>
+    <text x="610" y="256" font-size="11" fill="#475569">用 1-2-30 完整交付过一次</text>
+    <text x="610" y="276" font-size="11" fill="#475569">（哪怕校园级）</text>
+
+    <text x="830" y="142" font-size="14" font-weight="bold" fill="#0F172A">L3 实战</text>
+    <text x="830" y="162" font-size="11" fill="#475569">第 15-17 章</text>
+    <text x="830" y="186" font-size="11" fill="#475569">三个项目复刻完成</text>
+    <text x="830" y="206" font-size="11" fill="#475569">+ 能答辩"如果客户问 X"</text>
+
+    <text x="1050" y="72" font-size="14" font-weight="bold" fill="#0F172A">L4 变现</text>
+    <text x="1050" y="92" font-size="11" fill="#475569">第 18 章</text>
+    <text x="1050" y="116" font-size="11" fill="#475569">作品集三件套齐</text>
+    <text x="1050" y="136" font-size="11" fill="#475569">+ 简历公式化</text>
+    <text x="1050" y="156" font-size="11" fill="#475569">+ 模拟面试过关</text>
+  </g>
+
+  <g filter="url(#ds)">
+    <rect x="70" y="416" width="1080" height="32" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+  <text x="610" y="436" font-size="12" fill="#475569" text-anchor="middle">证据导向：读过不算数——跑通是 L1 的最低证据，交付过是 L2 的唯一证据（fde-career.py --self-check 输出雷达数据）</text>
+</svg>

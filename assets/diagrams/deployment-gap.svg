@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+    <marker id="aTeal" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#0D9488"/>
+    </marker>
+  </defs>
+
+  <rect width="1160" height="460" fill="#FFFFFF"/>
+  <text x="580" y="52" text-anchor="middle" font-size="18" font-weight="bold" fill="#0F172A">部署鸿沟（deployment gap）：FDE 存在的理由</text>
+
+  <!-- 沟体（先画，压在两岸地面之下） -->
+  <path d="M360,260 L800,260 L745,425 L415,425 Z" fill="#E2E8F0"/>
+
+  <!-- 左岸：模型能力塔 -->
+  <rect x="40" y="260" width="320" height="140" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="200" y="286" text-anchor="middle" font-size="12" fill="#475569">此岸 · 总部 / 实验室</text>
+  <rect x="150" y="126" width="100" height="44" rx="6" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="200" y="152" text-anchor="middle" font-size="12" fill="#0F172A">benchmark 90 分</text>
+  <rect x="135" y="178" width="130" height="44" rx="6" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="200" y="204" text-anchor="middle" font-size="12" fill="#0F172A">看起来能做到</text>
+  <text x="200" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#0284C7">模型能力</text>
+
+  <!-- 右岸：生产可用 -->
+  <rect x="800" y="260" width="320" height="140" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="960" y="286" text-anchor="middle" font-size="12" fill="#475569">彼岸 · 客户生产现场</text>
+  <rect x="860" y="150" width="200" height="52" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5" filter="url(#soft)"/>
+  <text x="960" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D9488">生产可用</text>
+  <text x="960" y="192" text-anchor="middle" font-size="12" fill="#0F172A">稳定 · 可审计 · 敢背锅</text>
+
+  <!-- 桥 -->
+  <line x1="340" y1="244" x2="830" y2="244" stroke="#0D9488" stroke-width="5" marker-end="url(#aTeal)"/>
+  <line x1="500" y1="244" x2="500" y2="392" stroke="#0D9488" stroke-width="2" opacity="0.6"/>
+  <line x1="660" y1="244" x2="660" y2="392" stroke="#0D9488" stroke-width="2" opacity="0.6"/>
+  <circle cx="580" cy="222" r="22" fill="#0D9488" filter="url(#soft)"/>
+  <text x="580" y="228" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">FDE</text>
+
+  <!-- 沟中标注 -->
+  <rect x="470" y="300" width="220" height="46" rx="8" fill="#FFFFFF" stroke="#CBD5E1" filter="url(#soft)"/>
+  <text x="580" y="320" text-anchor="middle" font-size="12" font-weight="bold" fill="#BE123C">MIT：95% 企业试点</text>
+  <text x="580" y="338" text-anchor="middle" font-size="12" fill="#BE123C">无可衡量回报</text>
+
+  <!-- 底注 -->
+  <text x="580" y="448" text-anchor="middle" font-size="11" font-style="italic" fill="#64748B">模型看起来能做到的事，与人们真正能可靠用上的东西之间的距离 —— FDE 站在鸿沟上，把桥架起来（正文 1.2.2）</text>
+</svg>
