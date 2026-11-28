@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>MCP 三方架构：把模型↔工具的连接标准化为 M+N</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="460" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">MCP 三方架构：把模型↔工具的连接标准化为 M+N</text>
+<rect x="60" y="70" width="430" height="300" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="580" y="100" width="260" height="240" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+<rect x="60" y="392" width="1060" height="48" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="90" y="130" width="190" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="185.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">AI 应用 / Agent</text>
+<text x="185.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">你的 LangGraph 系统</text>
+<text x="185.0" y="192.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">IDE·Claude Desktop</text>
+<g filter="url(#ds)"><rect x="300" y="130" width="170" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="385.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">MCP Client</text>
+<text x="385.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">宿主内的连接器</text>
+<text x="385.0" y="192.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">可同时连多个</text>
+<g filter="url(#ds)"><rect x="90" y="230" width="380" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="280.0" y="272.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">宿主可同时接入多个 Server：CRM、ERP、文档库……</text>
+<g filter="url(#ds)"><rect x="900" y="130" width="220" height="210" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="1010.0" y="213.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">企业系统</text>
+<text x="1010.0" y="235.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">ERP 订单/回款</text>
+<text x="1010.0" y="253.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">OA 工单/审批</text>
+<text x="1010.0" y="271.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">文档库 制度/合同</text>
+<path d="M280,165 L296,165" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M490,180 L576,180" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="495.0" y="169.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="533.0" y="184.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">MCP 协议</text>
+<path d="M840,235 L896,235" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="830.0" y="224.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="868.0" y="239.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">内部调用</text>
+<text x="80" y="100" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">Host 宿主（装着 AI 应用的进程）</text>
+<text x="600" y="128" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">MCP Server（本章主角）</text>
+<text x="600" y="156" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">CRM Server 暴露三类原语：</text>
+<text x="600" y="182" font-size="12" font-weight="bold" font-style="normal" fill="#0D9488" text-anchor="start">tools：模型能「做」的动作</text>
+<text x="600" y="208" font-size="12" font-weight="bold" font-style="normal" fill="#0D9488" text-anchor="start">resources：模型能「读」的数据</text>
+<text x="600" y="234" font-size="12" font-weight="bold" font-style="normal" fill="#0D9488" text-anchor="start">prompts：预置的用法模板</text>
+<text x="600" y="260" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">生产级纪律：权限收窄 + 错误信息</text>
+<text x="600" y="286" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">写好 + 审计留痕（7.4 安全清单）</text>
+<text x="496" y="58" font-size="11" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">JSON-RPC 2.0 · stdio（本地/私有化）/ HTTP（远程 SaaS）</text>
+<text x="80" y="412" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">M+N 的意义：M 个企业系统各实现一次 Server，N 个应用各实现一次 Client——</text>
+<text x="80" y="434" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">新模型接老系统零成本，老模型接新系统零成本（否则是 M×N 的定制地狱）。</text>
+<text x="840" y="100" font-size="11" font-weight="normal" font-style="italic" fill="#475569" text-anchor="start">stdio（本地子进程·私有化）/ HTTP（远程 SaaS）</text>
+</svg>

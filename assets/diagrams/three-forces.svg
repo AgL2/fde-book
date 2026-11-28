@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>三股力量同时进场，汇聚成时机窗口（3.2）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="460" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">三股力量同时进场，汇聚成时机窗口（3.2）</text>
+<rect x="80" y="64" width="76" height="26" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.5"/>
+<rect x="80" y="182" width="76" height="26" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.5"/>
+<rect x="80" y="300" width="76" height="26" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.5"/>
+<rect x="440" y="400" width="460" height="44" rx="10" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+<g filter="url(#ds)"><rect x="80" y="70" width="300" height="90" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/></g>
+<text x="230.0" y="111.0" font-size="14" font-weight="normal" font-style="normal" fill="#0F172A" text-anchor="middle">MIT 95% 困局</text>
+<text x="230.0" y="133.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">模型能力过剩，落地能力短缺</text>
+<g filter="url(#ds)"><rect x="80" y="188" width="300" height="90" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/></g>
+<text x="230.0" y="229.0" font-size="14" font-weight="normal" font-style="normal" fill="#0F172A" text-anchor="middle">Services-Led Growth</text>
+<text x="230.0" y="251.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">客户为「结果」付费，FDE 成为收入引擎</text>
+<g filter="url(#ds)"><rect x="80" y="306" width="300" height="90" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/></g>
+<text x="230.0" y="347.0" font-size="14" font-weight="normal" font-style="normal" fill="#0F172A" text-anchor="middle">42 倍 / 供需比 0.28</text>
+<text x="230.0" y="369.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">市场从零开始为品类定价，供给严重不足</text>
+<path d="M380,115 L620,115" fill="none" stroke="#0284C7" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M380,233 L620,233" fill="none" stroke="#0284C7" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M380,351 L620,351" fill="none" stroke="#0284C7" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M620,115 L620,400" fill="none" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr1)"/>
+<text x="118" y="82" font-size="12" font-weight="bold" font-style="normal" fill="#0284C7" text-anchor="middle">技术侧</text>
+<text x="118" y="200" font-size="12" font-weight="bold" font-style="normal" fill="#0284C7" text-anchor="middle">商业侧</text>
+<text x="118" y="318" font-size="12" font-weight="bold" font-style="normal" fill="#0284C7" text-anchor="middle">人才侧</text>
+<text x="840" y="100" font-size="11" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start"></text>
+<text x="670" y="428" font-size="15" font-weight="bold" font-style="normal" fill="#0284C7" text-anchor="middle">「现在是学习 FDE 的最好时机窗口」</text>
+<text x="460" y="115" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start"></text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="540" viewBox="0 0 1160 540" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>要不要 RAG/Agent：一棵选型决策树（4.1 决策表）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="540" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">要不要 RAG/Agent：一棵选型决策树（4.1 决策表）</text>
+<rect x="820" y="60" width="300" height="150" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+<rect x="80" y="470" width="1000" height="44" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="80" y="60" width="330" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="245.0" y="86.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">需求涉及私有知识吗？</text>
+<text x="245.0" y="108.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">客户制度/手册/工单——模型没见过</text>
+<g filter="url(#ds)"><rect x="80" y="170" width="330" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="245.0" y="196.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">需要可溯源吗？</text>
+<text x="245.0" y="218.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">答案必须标注出处</text>
+<g filter="url(#ds)"><rect x="80" y="280" width="330" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="245.0" y="306.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">知识稳定少变吗？</text>
+<text x="245.0" y="328.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">一年更新不到一两次</text>
+<g filter="url(#ds)"><rect x="520" y="60" width="250" height="60" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/></g>
+<text x="645.0" y="86.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">优化 prompt</text>
+<text x="645.0" y="108.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">第 5 章，大概率够用</text>
+<g filter="url(#ds)"><rect x="520" y="170" width="250" height="60" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/></g>
+<text x="645.0" y="196.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">RAG</text>
+<text x="645.0" y="218.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">第 8 章</text>
+<g filter="url(#ds)"><rect x="520" y="280" width="250" height="60" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/></g>
+<text x="645.0" y="297.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">RAG 打底</text>
+<text x="645.0" y="319.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">+ 评估微调性价比</text>
+<text x="645.0" y="337.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">（先跑便宜的方案）</text>
+<g filter="url(#ds)"><rect x="520" y="390" width="250" height="60" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/></g>
+<text x="645.0" y="416.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">RAG</text>
+<text x="645.0" y="438.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">第 8 章</text>
+<path d="M410,90 L516,90" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="425.0" y="79.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="463.0" y="94.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">否</text>
+<path d="M410,200 L516,200" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="425.0" y="189.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="463.0" y="204.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">是</text>
+<path d="M410,310 L516,310" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="425.0" y="299.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="463.0" y="314.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">是</text>
+<path d="M245,120 L245,166" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M245,230 L245,276" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M245,340 L245,386" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M410,340 L450,340 L450,420 L516,420" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="425.0" y="369.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="463.0" y="384.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">否</text>
+<path d="M770,200 L790,200 L790,135 L816,135" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="755.0" y="156.5" width="76" height="18" fill="#FFFFFF"/>
+<text x="793.0" y="171.5" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">×</text>
+<text x="840" y="88" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">补充判断</text>
+<text x="840" y="116" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">需要实时行动或精确计算吗？</text>
+<text x="840" y="142" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">（查库 / 调接口 / 算金额）</text>
+<text x="840" y="168" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">是 → 无论选了什么，都要加</text>
+<text x="840" y="190" font-size="12" font-weight="bold" font-style="normal" fill="#D97706" text-anchor="start">Agent + 工具（第 5-7 章）</text>
+<text x="100" y="492" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">现场用法：拿三个真实需求走一遍这棵树（01_first_api_call.py --decide 可互动练习）——先穷尽便宜的，再上贵的。</text>
+</svg>

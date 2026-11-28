@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>ReAct：Agent 的基本循环（Reason → Act → Observe）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="460" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">ReAct：Agent 的基本循环（Reason → Act → Observe）</text>
+<rect x="60" y="396" width="1040" height="46" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="60" y="210" width="150" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="135.0" y="232.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">用户问题</text>
+<text x="135.0" y="254.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">帮我查张三本月</text>
+<text x="135.0" y="272.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">报销有没有超限</text>
+<g filter="url(#ds)"><rect x="300" y="120" width="240" height="90" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="420.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">Thought 思考</text>
+<text x="420.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">我需要先查张三</text>
+<text x="420.0" y="192.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">本月的报销单</text>
+<g filter="url(#ds)"><rect x="650" y="120" width="240" height="90" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="770.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">Action 行动</text>
+<text x="770.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">query_expenses(</text>
+<text x="770.0" y="192.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">user=张三, month=11)</text>
+<g filter="url(#ds)"><rect x="650" y="300" width="240" height="90" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="770.0" y="332.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">Observation 观察</text>
+<text x="770.0" y="354.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">11 月累计 8,500 元，</text>
+<text x="770.0" y="372.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">P2 月上限 8,000 元</text>
+<g filter="url(#ds)"><rect x="950" y="120" width="160" height="90" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="1030.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">Final Answer</text>
+<text x="1030.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">累计超限 500 元，</text>
+<text x="1030.0" y="192.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">审批人为李总</text>
+<path d="M210,245 L250,245 L250,165 L296,165" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="215.0" y="194.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="253.0" y="209.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">入口</text>
+<path d="M540,165 L646,165" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M770,210 L770,296" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M650,345 Q535,430 420,212" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="497.0" y="267.5" width="76" height="18" fill="#FFFFFF"/>
+<text x="535.0" y="282.5" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">循环</text>
+<path d="M420,120 L420,84 L1030,84 L1030,116" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<text x="750" y="78" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="start">信息齐了 → 收束答案</text>
+<text x="80" y="416" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">第 5 章 50 行裸写这个循环；第 6 章所有编排框架，</text>
+<text x="560" y="416" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">都是它的工程化包装。</text>
+<text x="80" y="438" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">max_steps 止损（第 5 章纪律）：循环超过上限强制出答案，防止无限 Reason。</text>
+</svg>

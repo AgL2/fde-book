@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="560" viewBox="0 0 1160 560" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>检索错了怎么查：四步诊断法（8.4.1）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="560" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">检索错了怎么查：四步诊断法（8.4.1）</text>
+<rect x="80" y="470" width="740" height="56" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="80" y="70" width="280" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="220.0" y="101.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">① 检索错了？</text>
+<text x="220.0" y="123.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">拿问题直接查库，看 top5 有没有答案</text>
+<g filter="url(#ds)"><rect x="80" y="165" width="280" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="220.0" y="196.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">② 切分错了？</text>
+<text x="220.0" y="218.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">人肉翻库：答案在哪一块</text>
+<g filter="url(#ds)"><rect x="80" y="260" width="280" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="220.0" y="291.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">③ 解析错了？</text>
+<text x="220.0" y="313.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">看原始文档有没有这段内容</text>
+<g filter="url(#ds)"><rect x="80" y="355" width="280" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="220.0" y="386.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">④ 知识缺失</text>
+<text x="220.0" y="408.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">库里本来就没有</text>
+<g filter="url(#ds)"><rect x="480" y="70" width="340" height="70" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/></g>
+<text x="650.0" y="101.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">没有答案</text>
+<text x="650.0" y="123.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">→ 切分问题，往下查</text>
+<g filter="url(#ds)"><rect x="480" y="165" width="340" height="70" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/></g>
+<text x="650.0" y="196.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">答案不在任何一块</text>
+<text x="650.0" y="218.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">→ 解析问题，往下查</text>
+<g filter="url(#ds)"><rect x="480" y="260" width="340" height="70" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/></g>
+<text x="650.0" y="291.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">原始文档里有</text>
+<text x="650.0" y="313.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">→ 切分/解析的锅：回 8.2/8.3 修</text>
+<g filter="url(#ds)"><rect x="480" y="355" width="340" height="70" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/></g>
+<text x="650.0" y="386.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">补文档，不是调参！</text>
+<text x="650.0" y="408.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">业务流程，不是技术流程</text>
+<path d="M360,105 L470,105" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M360,200 L470,200" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M360,295 L470,295" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M360,390 L470,390" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M80,140 L80,161" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M80,235 L80,256" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M80,330 L80,351" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<text x="420" y="52" font-size="12" font-weight="bold" font-style="normal" fill="#0D9488" text-anchor="start">① 有但排名靠后 → reranker / 融合权重问题（8.4.2-8.4.3）</text>
+<text x="100" y="496" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">四步法最贵的产出：库里没有的知识，怎么调检索都变不出来——</text>
+<text x="100" y="518" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">正确动作是补文档（业务流程），而不是让工程师通宵调参（技术流程）。</text>
+</svg>

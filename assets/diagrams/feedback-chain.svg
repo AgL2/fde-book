@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="320" viewBox="0 0 1160 320" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>MCP Server：现场痛苦与产品能力之间的标准集装箱（7.4）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="320" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">MCP Server：现场痛苦与产品能力之间的标准集装箱（7.4）</text>
+<rect x="80" y="200" width="1000" height="70" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="80" y="70" width="210" height="80" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="185.0" y="106.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">现场调研</text>
+<text x="185.0" y="128.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">第 11 章</text>
+<g filter="url(#ds)"><rect x="340" y="70" width="210" height="80" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="445.0" y="106.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">抽象企业能力</text>
+<text x="445.0" y="128.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">7.3 工具粒度</text>
+<g filter="url(#ds)"><rect x="600" y="70" width="210" height="80" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/></g>
+<text x="705.0" y="106.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">沉淀为 MCP Server</text>
+<text x="705.0" y="128.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">本章</text>
+<g filter="url(#ds)"><rect x="860" y="70" width="210" height="80" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="965.0" y="106.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">反哺产品</text>
+<text x="965.0" y="128.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">第 14 章</text>
+<path d="M324,110 L336,110" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M584,110 L596,110" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M844,110 L856,110" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<text x="100" y="226" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">「集装箱」的复用账</text>
+<text x="100" y="250" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">三个客户的三套定制 → 一个参数化 Server；宏达现场写的 CRM Server，脱敏后就是产品的一个连接器。</text>
+</svg>

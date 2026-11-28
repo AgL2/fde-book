@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="440" viewBox="0 0 1160 440" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>部署路线决策树：把「担心」翻译成「分级」（9.1.2）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="440" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">部署路线决策树：把「担心」翻译成「分级」（9.1.2）</text>
+<rect x="820" y="60" width="300" height="130" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="80" y="370" width="1000" height="44" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="80" y="60" width="320" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="240.0" y="91.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">数据能出院墙吗？</text>
+<text x="240.0" y="113.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">三档工程成本差一个数量级</text>
+<g filter="url(#ds)"><rect x="480" y="40" width="280" height="60" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/></g>
+<text x="620.0" y="66.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">公有云 API</text>
+<text x="620.0" y="88.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">最省事，第 4 章默认姿势</text>
+<g filter="url(#ds)"><rect x="80" y="200" width="320" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="240.0" y="222.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">敏感度分级</text>
+<text x="240.0" y="244.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">客户嘴里的「要私有化」</text>
+<text x="240.0" y="262.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">经常只是担心数据安全</text>
+<g filter="url(#ds)"><rect x="480" y="150" width="280" height="70" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="620.0" y="181.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">中：可去标识化</text>
+<text x="620.0" y="203.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">专有云 / VPC + 脱敏后调用</text>
+<g filter="url(#ds)"><rect x="480" y="260" width="280" height="70" rx="8" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/></g>
+<text x="620.0" y="282.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">高：强合规</text>
+<text x="620.0" y="304.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">纯内网私有化（本章主角）</text>
+<text x="620.0" y="322.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">金融/政企/军工</text>
+<path d="M400,95 L476,70" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="400.0" y="71.5" width="76" height="18" fill="#FFFFFF"/>
+<text x="438.0" y="86.5" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">能</text>
+<path d="M240,130 L240,196" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="202.0" y="152.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="240.0" y="167.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">不能</text>
+<path d="M400,235 L476,185" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="400.0" y="199.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="438.0" y="214.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">中</text>
+<path d="M400,235 L476,295" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<rect x="400.0" y="254.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="438.0" y="269.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">高</text>
+<text x="840" y="88" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">FDE 的第一个专业动作</text>
+<text x="840" y="114" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">把「担心」翻译成「分级」</text>
+<text x="840" y="140" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">帮客户省下可能完全</text>
+<text x="840" y="166" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">不必要的一个数量级预算</text>
+<text x="580" y="396" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">真需要时拼图也齐：RAG（8 章）+ MCP Server（7 章）+ vLLM（4 章）全部支持私有化</text>
+</svg>

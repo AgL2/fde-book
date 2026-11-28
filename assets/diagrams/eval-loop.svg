@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="520" viewBox="0 0 1160 520" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>评估驱动开发：每两周一圈（10.5.1）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="520" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">评估驱动开发：每两周一圈（10.5.1）</text>
+<rect x="820" y="90" width="300" height="180" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<g filter="url(#ds)"><rect x="300" y="50" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="76.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">改动</text>
+<text x="490.0" y="98.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">prompt / 检索参数 / 模型</text>
+<g filter="url(#ds)"><rect x="300" y="126" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="152.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">跑黄金集</text>
+<text x="490.0" y="174.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">L1 全量 + L2 全量</text>
+<g filter="url(#ds)"><rect x="300" y="202" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="228.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">看分项失败</text>
+<text x="490.0" y="250.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">按归因标签分组（10.5.2）</text>
+<g filter="url(#ds)"><rect x="300" y="278" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="304.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">修最贵的失败</text>
+<text x="490.0" y="326.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">影响 × 频次最高的那类</text>
+<g filter="url(#ds)"><rect x="300" y="354" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="380.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">回归确认</text>
+<text x="490.0" y="402.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">旧分数不掉·新分数上涨</text>
+<g filter="url(#ds)"><rect x="300" y="430" width="380" height="60" rx="8" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/></g>
+<text x="490.0" y="456.0" font-size="14" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">提交</text>
+<text x="490.0" y="478.0" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">分数与变更一起进 Git</text>
+<path d="M490,114 L490,122" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M490,190 L490,198" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M490,266 L490,274" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M490,342 L490,350" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M490,418 L490,426" fill="none" stroke="#0D9488" stroke-width="2" marker-end="url(#arr0)"/>
+<path d="M760,460 L760,80" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M680,460 L760,460" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M680,80 L760,80" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M680,258 L756,258" fill="none" stroke="#0D9488" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arr0)"/>
+<rect x="680.0" y="247.0" width="76" height="18" fill="#FFFFFF"/>
+<text x="718.0" y="262.0" font-size="11" font-weight="normal" font-style="normal" fill="#0D9488" text-anchor="middle">循环</text>
+<text x="840" y="118" font-size="13" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">两个纪律</text>
+<text x="840" y="146" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">改动粒度最小化：</text>
+<text x="840" y="170" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">一次只改一件事，分数</text>
+<text x="840" y="194" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">变化才有归因价值</text>
+<text x="840" y="222" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">分数与变更一起提交：</text>
+<text x="840" y="246" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">「要点覆盖 82→86，</text>
+<text x="840" y="270" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">拒答率 11%→9%」</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="480" viewBox="0 0 1160 480" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',sans-serif">
+<title>难度-价值矩阵：用「价值够不够 × 时机到没到」过滤（12.4.2）</title>
+<defs><filter id="ds" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#0F172A" flood-opacity="0.12"/></filter></defs>
+<rect width="1160" height="480" fill="#FFFFFF"/>
+<text x="40" y="32" font-size="18" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="start">难度-价值矩阵：用「价值够不够 × 时机到没到」过滤（12.4.2）</text>
+<rect x="240" y="80" width="800" height="340" rx="0" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="248" y="88" width="384" height="158" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="648" y="88" width="384" height="158" rx="8" fill="#FFFBEB" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="248" y="258" width="384" height="158" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="648" y="258" width="384" height="158" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<rect x="240" y="440" width="800" height="34" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M640,80 L640,420" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M240,250 L1040,250" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="440" y="150" font-size="15" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">容易 × 低价值：顺手做</text>
+<text x="440" y="180" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">别投入过多</text>
+<text x="840" y="150" font-size="15" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">容易 × 高价值：第一仗</text>
+<text x="840" y="180" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">快赢建信任（第 13 章）</text>
+<text x="440" y="320" font-size="15" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">困难 × 低价值：拒绝</text>
+<text x="440" y="350" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">价值撑不起成本（11.4.3）</text>
+<text x="840" y="320" font-size="15" font-weight="bold" font-style="normal" fill="#0F172A" text-anchor="middle">★ 硬骨头</text>
+<text x="840" y="350" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">时机成熟时追：三信号全过再上</text>
+<text x="240" y="60" font-size="12" font-weight="normal" font-style="italic" fill="#475569" text-anchor="start">低价值</text>
+<text x="1040" y="60" font-size="12" font-weight="normal" font-style="italic" fill="#475569" text-anchor="start">高价值</text>
+<text x="220" y="95" font-size="12" font-weight="normal" font-style="italic" fill="#475569" text-anchor="end">容易</text>
+<text x="220" y="265" font-size="12" font-weight="normal" font-style="italic" fill="#475569" text-anchor="end">困难</text>
+<text x="640" y="462" font-size="12" font-weight="normal" font-style="normal" fill="#475569" text-anchor="middle">右下格的正确读法：不是「敢不敢」，是「时机到没到」——买单人投入专属资源 + 武器库 70% 把握 + 第一仗信任已建立</text>
+</svg>
